@@ -2,11 +2,9 @@ import pandas as pd
 import requests
 import json
 
-base_url = "https://api.weather.gov/"
 
-
-def get_weather(base_url, lat, lon, date, time):
-    base_url = base_url
+def get_weather(lat, lon, date, time):
+    base_url = "https://api.weather.gov/"
 
     day_filter = date
     time_filter = time
