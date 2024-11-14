@@ -1,4 +1,5 @@
 __pycache__
+*.sqlite
 *.ipynb
 rocket_launch_data.py
 weather_data.py
